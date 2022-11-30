@@ -2,7 +2,13 @@
 
 **ACE casts the problem of MARL as a sequential decision making process.**
 
+
+
 ![](img/ACE.png)
+
+> [**ACE: Cooperative Multi-agent Q-learning with Bidirectional Action-Dependency**](https://arxiv.org/abs/2211.16068)               
+> Chuming Li, Jie Liu, Yinmin Zhang, Yuhong Wei, Yazhe Niu, Yaodong Yang, Yu Liu, Wanli Ouyang
+> *[arXiv:2211.16068](https://arxiv.org/abs/2211.16068)* 
 
 ## Updates
 - (11/2022) Code will be released.
