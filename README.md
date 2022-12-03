@@ -98,8 +98,10 @@ python config.py
 ```
 
 ## Results
-
-![](img/Results.png)
+### SMAC
+![](img/SMAC.png)
+### GRF
+![](img/GRF.png)
 
 ## License
 
