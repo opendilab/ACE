@@ -4,7 +4,6 @@ from easydict import EasyDict
 
 from ding.utils import find_free_port, find_free_port_slurm, node_to_partition, node_to_host, pretty_print, \
     DEFAULT_K8S_COLLECTOR_PORT, DEFAULT_K8S_LEARNER_PORT, DEFAULT_K8S_COORDINATOR_PORT
-from dizoo.classic_control.cartpole.config.parallel import cartpole_dqn_config
 
 default_host = '0.0.0.0'
 default_port = 22270
@@ -494,43 +493,3 @@ def save_config_formatted(config_: dict, path: str = 'formatted_total_config.py'
         f.write(")\n")
         f.write('create_config = EasyDict(create_config)\n')
         f.write('create_config = create_config\n')
-
-
-parallel_test_main_config = cartpole_dqn_config
-parallel_test_create_config = dict(
-    env=dict(
-        type='cartpole',
-        import_names=['dizoo.classic_control.cartpole.envs.cartpole_env'],
-    ),
-    env_manager=dict(type='subprocess'),
-    policy=dict(type='dqn_command'),
-    comm_learner=dict(
-        type='flask_fs',
-        import_names=['ding.worker.learner.comm.flask_fs_learner'],
-    ),
-    comm_collector=dict(
-        type='flask_fs',
-        import_names=['ding.worker.collector.comm.flask_fs_collector'],
-    ),
-    learner=dict(
-        type='base',
-        import_names=['ding.worker.learner.base_learner'],
-    ),
-    collector=dict(
-        type='zergling',
-        import_names=['ding.worker.collector.zergling_parallel_collector'],
-    ),
-    commander=dict(
-        type='naive',
-        import_names=['ding.worker.coordinator.base_parallel_commander'],
-    ),
-)
-parallel_test_create_config = EasyDict(parallel_test_create_config)
-parallel_test_system_config = dict(
-    coordinator=dict(),
-    path_data='.',
-    path_policy='.',
-    communication_mode='auto',
-    learner_gpu_num=1,
-)
-parallel_test_system_config = EasyDict(parallel_test_system_config)
