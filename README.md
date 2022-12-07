@@ -17,6 +17,10 @@
 
 - (11/2022) Code has been released!
 
+
+## Replay
+See some interesting demo and replay in [issue](https://github.com/opendilab/ACE/issues/1).
+
 ## Installation
 
 ### All scripts
