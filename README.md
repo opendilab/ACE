@@ -8,6 +8,11 @@
 > Chuming Li, Jie Liu, Yinmin Zhang, Yuhong Wei, Yazhe Niu, Yaodong Yang, Yu Liu, Wanli Ouyang
 > *[arXiv:2211.16068](https://arxiv.org/abs/2211.16068)* 
 
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ace-cooperative-multi-agent-q-learning-with/smac-on-smac-3s5z-vs-3s6z-1)](https://paperswithcode.com/sota/smac-on-smac-3s5z-vs-3s6z-1?p=ace-cooperative-multi-agent-q-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ace-cooperative-multi-agent-q-learning-with/smac-on-smac-6h-vs-8z-1)](https://paperswithcode.com/sota/smac-on-smac-6h-vs-8z-1?p=ace-cooperative-multi-agent-q-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ace-cooperative-multi-agent-q-learning-with/smac-on-smac-corridor)](https://paperswithcode.com/sota/smac-on-smac-corridor?p=ace-cooperative-multi-agent-q-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ace-cooperative-multi-agent-q-learning-with/smac-on-smac-mmm2-1)](https://paperswithcode.com/sota/smac-on-smac-mmm2-1?p=ace-cooperative-multi-agent-q-learning-with)
 ## Updates
 
 - (11/2022) Code will be released.
