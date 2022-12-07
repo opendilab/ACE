@@ -15,7 +15,6 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ace-cooperative-multi-agent-q-learning-with/smac-on-smac-mmm2-1)](https://paperswithcode.com/sota/smac-on-smac-mmm2-1?p=ace-cooperative-multi-agent-q-learning-with)
 ## Updates
 
-- (11/2022) Code will be released.
 - (11/2022) Code has been released!
 
 ## Installation
